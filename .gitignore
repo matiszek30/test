@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.pseudo_tv_state.json
+dist/
+build/
+*.egg-info/
