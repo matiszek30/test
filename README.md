@@ -56,7 +56,7 @@ The code lives in `pseudo_tv/` with modules for configuration, library scanning,
 - `requirements.txt`: optional dependencies (PyYAML if you want YAML syntax).
 - `.pseudo_tv_state.json`: generated at runtime to remember playback positions (ignored by git).
 
-If you only see `readme.md` on GitHub, make sure you're on the latest commit or branch that includes the app code (`pseudo_tv/` and related files listed above).
+If you only see `README.md` on GitHub, make sure you're on the latest commit or branch that includes the app code (`pseudo_tv/` and related files listed above).
 
 ## Publish to your own Git repository
 This project currently lives only in this workspace (`/workspace/test`) and has no remote configured. To publish it to your GitHub account:
@@ -71,7 +71,7 @@ This project currently lives only in this workspace (`/workspace/test`) and has 
 3. Refresh the GitHub page; you should now see the full project tree (`pseudo_tv/`, config, sample media, etc.).
 
 ### Resolving merge conflicts
-If GitHub shows conflicts (for example on `.gitignore`, `pseudo_tv/__init__.py`, or `readme.md`), pull the latest changes from both branches and merge locally:
+If GitHub shows conflicts (for example on `.gitignore`, `pseudo_tv/__init__.py`, or `README.md`), pull the latest changes from both branches and merge locally:
 
 ```bash
 git fetch origin
@@ -81,7 +81,7 @@ git checkout work          # switch back to this branch
 git merge origin/main      # merge and resolve any conflicts
 ```
 
-When conflicts appear, open the flagged files and keep the combined entries: preserve any new ignores in `.gitignore`, retain the current `__version__` in `pseudo_tv/__init__.py`, and merge documentation updates in `readme.md`. After resolving, run `git add` on the files, commit, and push the branch; GitHub will then mark the conflicts as resolved.
+When conflicts appear, open the flagged files and keep the combined entries: preserve any new ignores in `.gitignore`, retain the current `__version__` in `pseudo_tv/__init__.py`, and merge documentation updates in `README.md`. After resolving, run `git add` on the files, commit, and push the branch; GitHub will then mark the conflicts as resolved.
 
 ## Release
 To cut a release from this workspace:

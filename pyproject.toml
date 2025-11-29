@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pseudo-tv"
-version = "0.1.0"
+version = "0.1.1"
 description = "Standalone pseudo TV simulator that builds virtual channels from a media library"
-readme = "readme.md"
+readme = "README.md"
 authors = [{ name = "Pseudo TV Contributors" }]
 requires-python = ">=3.9"
 license = { file = "LICENSE" }
