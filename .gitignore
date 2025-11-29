@@ -1,6 +1,15 @@
 __pycache__/
+*.py[cod]
 *.pyc
 .pseudo_tv_state.json
 dist/
 build/
 *.egg-info/
+.coverage
+.pytest_cache/
+.venv/
+venv/
+env/
+.env
+.DS_Store
+*.log
