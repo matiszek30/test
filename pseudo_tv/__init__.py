@@ -3,7 +3,7 @@
 This package provides tools to build pseudo-live channels from a media library.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __all__ = [
     "MediaItem",

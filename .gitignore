@@ -1,15 +1,28 @@
+# Byte-compiled / cache files
 __pycache__/
 *.py[cod]
 *.pyc
+
+# Runtime / state
 .pseudo_tv_state.json
+
+# Build artifacts
 dist/
 build/
 *.egg-info/
+*.log
+
+# Coverage / testing
 .coverage
 .pytest_cache/
+
+# Virtual environments
 .venv/
 venv/
 env/
 .env
+
+# OS / editor cruft
 .DS_Store
-*.log
+*.swp
+*.swo

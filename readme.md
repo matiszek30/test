@@ -70,6 +70,19 @@ This project currently lives only in this workspace (`/workspace/test`) and has 
    ```
 3. Refresh the GitHub page; you should now see the full project tree (`pseudo_tv/`, config, sample media, etc.).
 
+### Resolving merge conflicts
+If GitHub shows conflicts (for example on `.gitignore`, `pseudo_tv/__init__.py`, or `readme.md`), pull the latest changes from both branches and merge locally:
+
+```bash
+git fetch origin
+git checkout main          # or your default branch
+git pull                   # ensure it is up to date
+git checkout work          # switch back to this branch
+git merge origin/main      # merge and resolve any conflicts
+```
+
+When conflicts appear, open the flagged files and keep the combined entries: preserve any new ignores in `.gitignore`, retain the current `__version__` in `pseudo_tv/__init__.py`, and merge documentation updates in `readme.md`. After resolving, run `git add` on the files, commit, and push the branch; GitHub will then mark the conflicts as resolved.
+
 ## Release
 To cut a release from this workspace:
 
