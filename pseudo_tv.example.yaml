@@ -1,0 +1,62 @@
+{
+  "media_roots": [
+    "sample_media"
+  ],
+  "state_path": ".pseudo_tv_state.json",
+  "channels": [
+    {
+      "name": "Comedy",
+      "shuffle": true,
+      "allow_repeats": true,
+      "include_genres": [
+        "comedy"
+      ],
+      "include_shows": [],
+      "include_paths": [],
+      "exclude_genres": [],
+      "minimum_runtime_minutes": null,
+      "maximum_runtime_minutes": null
+    },
+    {
+      "name": "Drama",
+      "shuffle": true,
+      "allow_repeats": false,
+      "include_genres": [
+        "drama"
+      ],
+      "include_shows": [],
+      "include_paths": [],
+      "exclude_genres": [],
+      "minimum_runtime_minutes": null,
+      "maximum_runtime_minutes": null
+    },
+    {
+      "name": "Cartoons",
+      "shuffle": false,
+      "allow_repeats": false,
+      "include_genres": [
+        "animation",
+        "family"
+      ],
+      "include_shows": [],
+      "include_paths": [],
+      "exclude_genres": [],
+      "minimum_runtime_minutes": null,
+      "maximum_runtime_minutes": null
+    },
+    {
+      "name": "Movies",
+      "shuffle": true,
+      "allow_repeats": true,
+      "include_genres": [
+        "movie",
+        "comedy"
+      ],
+      "include_shows": [],
+      "include_paths": [],
+      "exclude_genres": [],
+      "minimum_runtime_minutes": null,
+      "maximum_runtime_minutes": null
+    }
+  ]
+}
